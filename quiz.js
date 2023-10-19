@@ -1,3 +1,18 @@
+var questions = [
+  {
+    question: "最も人口の多い国はどれ？",
+    choices: ["アメリカ", "中国", "日本", "ブラジル"],
+    answer: 1
+  },
+  {
+    question: "「ハリーポッター」シリーズの著者は誰？",
+    choices: ["J.K.ローリング", "J.R.R.トールキン", "C.S.ルイス", "ロアルド・ダール"],
+    answer: 0
+  },
+  // 他の質問を追加することもできます
+];
+
+
 var currentQuestion = 0;
 var score = 0;
 var container = document.getElementById("question");
